@@ -1,6 +1,6 @@
 
 
-From a requirements perspective we are hoping to achieve the ability to run “Unit Tests” against our logic apps to enable quick execution on local developer machines and within DevOps Pipelines. To achieve this I think there needs to be some kind of mocking of dependencies (Triggers, ServiceBus, External Connections, APIs etc). Alternatively we would also be happy with automating the execution of logic app workflows after they have been deployed to a UAT / TESTING environment, this is more of an integration test but still very useful.
+From a requirements perspective, Microsoft aims to empower developers with the ability to execute "Unit Tests" seamlessly on their local machines and within DevOps Pipelines for Logic Apps. This article explores the necessary steps to achieve this goal, primarily focusing on the crucial aspects of mocking dependencies such as Triggers, ServiceBus, External Connections, and APIs. Additionally, the article considers the potential benefits of automating the execution of logic app workflows in UAT/TESTING environments, acknowledging the value of integration testing in the development process.
 
 Reviewing the options below:
 
